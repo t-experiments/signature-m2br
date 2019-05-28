@@ -1,0 +1,36 @@
+/* reset */
+html {
+    box-sizing: border-box; 
+}        
+body {
+    line-height: 1;			
+}	
+*{
+    margin: 0;
+    padding: 0;
+}
+*, 
+*:before, 
+*:after { 
+    box-sizing: inherit; 
+}
+:focus {
+    outline: 0;
+}  
+
+
+/* signature */
+.footer {
+    background-color: #e31f2b;
+}  
+
+.signature {
+    display: inline-block;
+    width: 50px;
+    height: 17px;
+    background-image: url('../images/logotypes/m2br-footer.png');            
+}
+
+.signature:hover {
+    background-image: url('../images/logotypes/m2br-footer-hover.png');
+}    
